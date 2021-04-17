@@ -1,7 +1,11 @@
 /**REsponsive Nav scripts
  * ===============================================================================================================================================================
  */
-
+ window.addEventListener("scroll", 
+ function() {
+   var button = document.querySelector(".HeaderContainer");
+   button.classList.toggle("sticky", window.scrollY > 100);
+   });
  (function($) {
   
     $('#search-button').on('click', function(e) {
