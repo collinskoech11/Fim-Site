@@ -126,3 +126,8 @@
       width:100%;
     }
   }
+/** Profile container styling */
+
+.SecondCon .section{
+  background-color:blue;
+}
