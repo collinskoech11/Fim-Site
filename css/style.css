@@ -1134,3 +1134,8 @@ form .icon {
   background-size: 100% 100%;
   transform: translateY(-0.15em);
 }
+
+.BodyContainer iframe{
+  width:100%;
+  height:90vh;
+}
