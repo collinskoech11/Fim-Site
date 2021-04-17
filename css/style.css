@@ -127,7 +127,36 @@
     }
   }
 /** Profile container styling */
-
-.SecondCon .section{
-  background-color:blue;
+.section{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  display:inline-block;
+}
+@media screen and (max-width:1000px){
+  .section{
+    height:auto;
+  }
+}
+.section .img-container{
+  float:left;
+  height:100%;
+  width:40%;
+}
+.section .img-container img{
+  height:100%;
+  width:100%;
+}
+.section .text-container{
+  float:left;
+  width:60%;
+  padding:40px;
+}
+@media screen and (max-width:1000px){
+  .section .img-container{
+    width:90%;
+  }
+  .section .text-container{
+    width:100%;
+  }
 }
