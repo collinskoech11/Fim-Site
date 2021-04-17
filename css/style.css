@@ -15,6 +15,7 @@
   .sticky{
     position:fixed;
     width:100%;
+    z-index:1000;
   }
 
  /**Carousel section
@@ -162,4 +163,47 @@
   .section .text-container{
     width:100%;
   }
+}
+/** LIvelink Styles 
+===========================================================================================================*/
+.live-container{
+  padding:100px;
+}
+.live-btn {
+  padding: 36px 56px;
+  border: none;
+  border-radius: 55px 46% 50px 35%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top:30px;
+  letter-spacing: -1px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(0, 0, 0, 0.15) inset,
+    6px 6px 12px rgba(255, 255, 255, 0.4) inset, -6px -6px 12px white;
+}
+.live-btn :hover, :focus {
+  animation: 4s liquid linear infinite;
+}
+@keyframes liquid {
+  0% {
+    border-radius: 55px 46% 50px 35%;
+  }
+  25% {
+    border-radius: 70px 50px 25px 10%;
+  }
+  50% {
+    border-radius: 30% 29% 45% 35px;
+  }
+  75% {
+    border-radius: 35% 50% 40px 45%;
+  }
+  95% {
+    border-radius: 50px 40% 47px 37%;
+  }
+}
+.row{
+  overflow-x:hidden;
 }
