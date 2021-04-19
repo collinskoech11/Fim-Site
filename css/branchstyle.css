@@ -1,0 +1,65 @@
+.b-title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: Blue;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h3{
+    font-weight: bold;
+    color: blue;
+    text-transform: capitalize;
+}
+.b-title h2{
+    color: Blue;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.b-head{
+    width:100%;
+    padding: 30px;
+    height: 300px;
+}
+.b-head .profile-img,.profile-text{
+    float: left;
+}
+.b-head .profile-img{
+    width: 30%;
+    height: 100%;
+}
+.b-head .profile-img img{
+    width: 90%;
+    height:100%;
+}
+.b-head .profile-text{
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+}
+.sub-branch-title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.sub-branch-title h2{
+    font-weight:bold;
+    text-transform: uppercase;
+    color: blue;
+}
+.sub-branch{
+    width: 90%;
+    margin: 10px;
+    height: auto;
+    border: 2px solid rgb(0,0,255,0.4);
+    border-radius: 10px;
+    display: inline-block;
+}
+.data{
+    width: 23%;
+    height:auto;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
