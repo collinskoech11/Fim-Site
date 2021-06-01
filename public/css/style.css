@@ -23,7 +23,8 @@
 
   .carousel {
     width: 99vw;
-    height: 300px;
+    height: 400px;
+  
     border-radius: 3px;
     overflow: hidden;
     position: relative;
@@ -70,7 +71,8 @@
  }
   .carousel .slides .slide {
     min-width: 100%;
-    min-height: 250px;
+    min-height: 200px;
+    margin-top:50px;
     height: auto;
  }
   
