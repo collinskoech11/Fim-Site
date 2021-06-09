@@ -1135,8 +1135,8 @@ form .icon {
   transform: translateY(-0.15em);
 }
 .BodyContainer iframe{
-  width:100vw;
-  height:100vh;
+  width: 99vw;
+  height:90vh;
 }
 .BodyContainer .radio-container{
   width:100%;
