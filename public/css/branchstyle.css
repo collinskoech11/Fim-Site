@@ -63,3 +63,8 @@ h3{
     padding-top: 15px;
     float: left;
 }
+@media screen and (max-width:1000px){
+    .data:nth-child(3){
+        display:none;
+    }
+}
