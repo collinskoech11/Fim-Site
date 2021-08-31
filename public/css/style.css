@@ -7,8 +7,16 @@ body{
   max-width:100vw;
   overflow-x:hidden;
 }
+section{
+  max-width:100vw;
+  overflow-x:hidden;
+}
 /**Header styling
 ============================================================================================================================================**/
+.dropdown-menu{
+  z-index:1000;
+  border:1px solid red;
+}
 .social-part .fa{
     padding-right:20px;
   }
@@ -27,7 +35,7 @@ body{
   .carousel {
     width: 99vw;
     height: 400px;
-  
+    z-index: -100;
     border-radius: 3px;
     overflow: hidden;
     position: relative;
@@ -140,6 +148,7 @@ body{
 @media screen and (max-width:1000px){
   .section{
     height:auto;
+    padding:0;
   }
 }
 .section .img-container{
@@ -162,12 +171,18 @@ body{
   }
   .section .text-container{
     width:100%;
+    padding:5px;
   }
 }
 /** LIvelink Styles 
 ===========================================================================================================*/
 .live-container{
   padding:100px;
+}
+@media screen and (max-width:1000px){
+  .live-container{
+    padding:20px;
+  }
 }
 .live-btn {
   padding: 36px 56px;
@@ -212,6 +227,11 @@ body{
 */
 .TwitterContainer{
   padding:100px;
+}
+@media screen and (max-width:1000px){
+  .TwitterContainer{
+    padding:10px;
+  }
 }
 /** Footer Styling 
 ===========================================================================================================================
